@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 40vh;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position:top 100% right 100%;
+}
+.logo pre{
+    display:inline-block;
+    text-transform: uppercase;
+    font-family: 'Changa One', cursive;
+    font-size: 16vh;
+}
+.logo{
+    text-align: center;
+}
+.led{
+    color: rgb(238, 25, 167);
+    margin-left: 20px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 5px 10px;
+    font-family: 'Playfair Display', serif;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+nav ul li a:hover{
+    color: aqua;
+}
+main h3{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 10px 0px;
+    margin: 0px 0px 10px 0px;
+    background-color:rgb(109, 3, 56);
+}
+main div{
+    display: inline-block;
+}
+#pic{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+@keyframes hover{
+    from{
+        height: 200px;
+        width: 200px;
+    }
+    to{
+        height: 250px;
+        width: 250px;
+    }
+}
+#pic img:hover{
+animation: hover .5s ease-in 1 forwards;
+}
+#pic a{
+    text-decoration: none;
+}
+#pic a pre:hover{
+    background-color: orangered;
+}
+main #pic div pre{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    background-color:rgb(109, 3, 56);
+    border-radius: 10px;
+}
+.fdlt{
+     padding: 30px 30px;
+}
+.ldbb{
+    padding: 30px 30px;
+}
+.cnlt{
+    padding: 30px 30px ;
+}
+.tbb{
+    padding: 30px 30px ;
+}
+.tblt{
+    padding: 30px 30px ;
+}
+.pnlt{
+    padding: 30px 30px ;
+}
+.stlt{
+    padding: 30px 30px;
+}
+    .embb{
+        padding: 30px 30px;
+    }
+main{
+background-color: rgb(200, 152, 214);
+}
+footer{
+    background-color: black;
+    color: white;
+
+}
+.baselogo pre{
+    display: inline;
+}
+.baselogo pre{
+    text-transform: uppercase;
+    font-family: 'Changa One', cursive;
+    font-size: 5vh;
+    margin-left: 10px;
+    /* position: relative; */
+}
+.baselogo .led{
+    margin-left: 10px;
+    color: rgb(238, 25, 167);
+}
+.basecontainer{
+    display: flex;
+    padding:10vh 5vw;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Playfair Display', serif;
+}
+.basecontainer .box1{
+    width: 300px;
+    height:175px;
+    box-sizing: border-box;
+    margin: 20px;
+}
+.basecontainer .box2 {
+    display: flex;
+   list-style: none;
+   justify-content:center;
+   align-items: center;
+   width: 300px;
+   height:175px;
+   margin: 20px;
+}
+.basecontainer .box3{
+    width: 300px;
+    height:175px;
+    margin: 20px;
+}
+.basecontainer .box2 li{
+    padding: 5px;
+    color: white;
+    list-style: none;
+}
+.box2 li h4{
+    
+    text-align: center;
+}
+#contact{
+    font-family: 'Playfair Display', serif ;
+}
+.copy{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+}
